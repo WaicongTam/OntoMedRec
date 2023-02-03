@@ -9,9 +9,13 @@ The model repository of OntoMedRec. To run the model, please make sure you have 
 
 # Data Preprocessing
 To get access to MIMIC dataset, please follow the instruction on https://physionet.org/content/mimiciii/1.4/
+
 Download the raw DDI dataset as per the instruction in https://github.com/ycq091044/SafeDrug
+
 Please put the diagnoses, procedures, prescriptions and admissions datasets to the `./data` directory.
+
 To get the training, testing and validation records, please and run the following commands:
+
 ```
 cd data
 python processing.py
